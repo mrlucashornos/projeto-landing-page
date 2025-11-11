@@ -71,7 +71,7 @@
 
 #carrossel{
     background-color: #247BA0;
-    padding: 25px;
+    padding: 25px 50px 25px 50px;
 }
 
 #titulo-carrossel{
@@ -82,17 +82,27 @@
 }
 
 #div-cards{
+    position: relative;
     display: grid;
     grid-auto-flow: column;
 }
 
 .cards{
-    margin-left: 15px;
+    margin-left: 20px;
     margin-right: 15px;
 }
 
+#seta-esquerda{
+    left: -50px;
+}
+
+#seta-direita{
+    right: -50px;
+}
+
 .seta{
-    margin-top: 55%;
+    position: absolute;
+    top: 30%;
     cursor: pointer;
 }
 
